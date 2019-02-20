@@ -1,0 +1,65 @@
+.cousre-list-item {
+  width: 170px;
+  border: solid 1px #b5b5b5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cousre-list-item .item-cover img {
+  max-width: 100%;
+}
+
+.cousre-list-item .item-info {
+  padding: 10px 16px;
+}
+
+.item-info > div {
+  padding-left: .5em;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.cousre-list-item .item-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 6px;
+}
+
+.cousre-list-item .item-grade {
+  margin-bottom: 9px;
+}
+
+.cousre-list-item .item-genre {
+  font-size: 11px;
+  margin-bottom: 12px;
+}
+
+.cousre-list-item .item-link {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.cousre-list-item .item-link > a {
+  color: #00c1ff;
+  font-weight: 600;
+}
+
+.cousre-list-item .item-link > a:hover {
+  text-decoration: underline;
+}
+
+.cousre-list-item .item-btn {
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 6px;
+  background: #00c1ff;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+}
+
+.cousre-list-item .item-btn:hover {
+  background: #009ace;
+}

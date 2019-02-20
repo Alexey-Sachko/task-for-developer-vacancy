@@ -1,0 +1,11 @@
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.course-list > li {
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 50px;
+}

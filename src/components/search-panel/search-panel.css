@@ -1,0 +1,58 @@
+.search-results {
+  height: 50px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  color: #3c3c3b;
+}
+
+.search-panel {
+  display: flex;
+  padding-bottom: 30px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.search-panel select {
+  width: 100%;
+  padding: .3em .5em;
+  height: 2.3em;
+  background-color: #fff;
+  border: 1px solid #706f6f;
+  border-radius: 6px;
+}
+
+.search-panel > div {
+  width: 25%;
+  padding: 0 22px 0 0;
+}
+
+.search-panel .search {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-right: 0;
+}
+
+.search-panel .search input {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 14px;
+  vertical-align: middle;
+  border: 1px solid #706f6f;
+  border-radius: 6px;
+  padding: .45em .5em;
+}
+
+.search-panel .search button {
+  display: inline-block;
+  margin-left: 6px;
+  width: 32px;
+  height: 32px;
+  line-height: normal;
+  background: #fff url(https://www.imumk.ru/Content/skins/bubble/images/icons/icon-search-25.png) center no-repeat;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.toggle-price {
+  padding: 15px;
+}
+
+.toggle-price > button {
+  color: #fff;
+  background: #00c1ff;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 15px;
+}
+
+.toggle-price > .active {
+  font-weight: bold;
+  background-color: #005d7c;
+  padding: 8px 17px;
+}
+

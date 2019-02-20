@@ -1,0 +1,18 @@
+main {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: #3c3c3b;
+  padding-top: 40px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header-title {
+  font-size: 36px;
+  font-weight: 300;
+  color: #3c3c3b;
+  text-align: center;
+  margin-bottom: 40px;
+}
