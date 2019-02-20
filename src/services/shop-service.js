@@ -1,6 +1,6 @@
 export default class ShopService {
   
-  _apiBase = 'http://krapipl.imumk.ru:8082/api/mobilev1/update/';
+  _apiBase = '//krapipl.imumk.ru:8082/api/mobilev1/update/';
 
   _headers = new Headers({
     "Content-Type": "application/json"

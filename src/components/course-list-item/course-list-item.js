@@ -7,7 +7,7 @@ const CourseListItem = ({ data, togglePosition }) => {
 
   const priceView = togglePosition === 'rub' ? `${price} руб.` : `${priceBonus}`;
 
-  const imageUrl = `https://www.imumk.ru/svc/coursecover/${courseId}`;
+  const imageUrl = `//www.imumk.ru/svc/coursecover/${courseId}`;
 
   let trGrade = grade.split(';');
 
